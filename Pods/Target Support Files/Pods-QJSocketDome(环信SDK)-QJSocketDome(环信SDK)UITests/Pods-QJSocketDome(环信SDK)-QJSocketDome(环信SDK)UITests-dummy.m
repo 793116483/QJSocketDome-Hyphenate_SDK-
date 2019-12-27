@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_QJSocketDome___SDK__QJSocketDome___SDK_UITests : NSObject
+@end
+@implementation PodsDummy_Pods_QJSocketDome___SDK__QJSocketDome___SDK_UITests
+@end

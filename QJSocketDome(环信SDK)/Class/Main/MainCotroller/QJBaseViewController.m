@@ -1,0 +1,24 @@
+//
+//  QJBaseViewController.m
+//  QJSocketDome(环信SDK)
+//
+//  Created by 瞿杰 on 2019/12/8.
+//  Copyright © 2019 yiniu. All rights reserved.
+//
+
+#import "QJBaseViewController.h"
+
+@interface QJBaseViewController ()
+
+@end
+
+@implementation QJBaseViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+}
+
+
+
+@end

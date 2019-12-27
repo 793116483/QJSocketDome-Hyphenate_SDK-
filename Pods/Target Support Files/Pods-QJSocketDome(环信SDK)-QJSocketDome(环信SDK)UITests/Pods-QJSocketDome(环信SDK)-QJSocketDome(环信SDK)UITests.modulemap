@@ -1,0 +1,6 @@
+framework module Pods_QJSocketDome___SDK__QJSocketDome___SDK_UITests {
+  umbrella header "Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,54 @@
+//
+//  QJPrefixHeader.pch
+//  QJSocketDome(环信SDK)
+//
+//  Created by 瞿杰 on 2019/12/7.
+//  Copyright © 2019 yiniu. All rights reserved.
+//
+
+#ifndef QJPrefixHeader_pch
+#define QJPrefixHeader_pch
+
+// 环信SDK
+#import <Hyphenate/Hyphenate.h>
+/// 环信AppKey
+static const NSString * kSocketAppKey = @"1102191206065179#qujiesocketdome" ;
+
+// other 第三方框
+#import <Masonry/Masonry.h>
+#import <SVProgressHUD.h>
+
+// 自定义类
+#import "QJAppNotificationManager.h"
+#import "QJUserManager.h"
+#import "QJContactManager.h"
+#import "QJUserDefaults.h"
+#import "QJBaseTableViewController.h"
+#import "QJWeakRefMutableArray.h"
+#import "QJButton.h"
+
+// 分类
+#import "NSString+QJExtent.h"
+#import "UIBarButtonItem+QJBarButtonItem.h"
+#import "UIImage+QJImage.h"
+#import "NSDate+QJExtension.h"
+ 
+// 颜色
+#define QJColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#pragma mark - 方法
+
+#define DBUG
+#ifdef DBUG
+
+#define QJLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define QJLog(...) 
+
+#endif
+
+#endif /* QJPrefixHeader_pch */
+
+

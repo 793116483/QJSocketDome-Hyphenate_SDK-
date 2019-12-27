@@ -1,0 +1,1323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1E4897B98780BADFB8FB2C /* Pods_QJSocketDome___SDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB29B9632BC05EE7AB81D6C /* Pods_QJSocketDome___SDK_Tests.framework */; };
+		8C8CDC461D5EEE9A703EF75B /* Pods_QJSocketDome___SDK_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8464C907FB71714B768A8C7 /* Pods_QJSocketDome___SDK_.framework */; };
+		B3455816E871FDB0AB6CE707 /* Pods_QJSocketDome___SDK__QJSocketDome___SDK_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE125BBDACA014475C5AE59C /* Pods_QJSocketDome___SDK__QJSocketDome___SDK_UITests.framework */; };
+		F2019F03239E03200035003D /* QJWeakRefMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F2019F02239E03200035003D /* QJWeakRefMutableArray.m */; };
+		F2019F06239E37860035003D /* QJContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2019F05239E37860035003D /* QJContactModel.m */; };
+		F2019F09239E4CFD0035003D /* QJUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2019F08239E4CFD0035003D /* QJUserModel.m */; };
+		F2019F0C239E90F00035003D /* QJMeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2019F0B239E90F00035003D /* QJMeHeaderView.m */; };
+		F209521523A2342B001C873B /* QJAppNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F209521423A2342B001C873B /* QJAppNotificationManager.m */; };
+		F209521823A28A7B001C873B /* QJNewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F209521723A28A7B001C873B /* QJNewFriendViewController.m */; };
+		F21298AC23A4B6A90089A5B5 /* NSDate+QJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F21298AB23A4B6A90089A5B5 /* NSDate+QJExtension.m */; };
+		F21298AF23A4CF540089A5B5 /* QJConversationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F21298AE23A4CF540089A5B5 /* QJConversationManager.m */; };
+		F22B9655239F59B000CEEB58 /* NSString+QJExtent.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B9654239F59B000CEEB58 /* NSString+QJExtent.m */; };
+		F22B965C239F5B7C00CEEB58 /* QJChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B965B239F5B7C00CEEB58 /* QJChatModel.m */; };
+		F22B965F239F5C1600CEEB58 /* QJChatModelFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B965E239F5C1600CEEB58 /* QJChatModelFrame.m */; };
+		F22B9662239F5D2300CEEB58 /* QJChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B9661239F5D2300CEEB58 /* QJChatCell.m */; };
+		F22B9665239F5EB600CEEB58 /* QJChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B9664239F5EB600CEEB58 /* QJChatViewController.m */; };
+		F22B966B239F7E7F00CEEB58 /* QJTextChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B966A239F7E7F00CEEB58 /* QJTextChatModel.m */; };
+		F22B966E239F7F1700CEEB58 /* QJImageChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B966D239F7F1700CEEB58 /* QJImageChatModel.m */; };
+		F22B9671239F7F2500CEEB58 /* QJVoceChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B9670239F7F2500CEEB58 /* QJVoceChatModel.m */; };
+		F22B9674239F7F9500CEEB58 /* QJTextChatModelFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B9673239F7F9500CEEB58 /* QJTextChatModelFrame.m */; };
+		F22B9677239F7FA600CEEB58 /* QJImageChatModelFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B9676239F7FA600CEEB58 /* QJImageChatModelFrame.m */; };
+		F22B967A239F7FC800CEEB58 /* QJVoceChatModelFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B9679239F7FC800CEEB58 /* QJVoceChatModelFrame.m */; };
+		F22B9680239F803700CEEB58 /* QJVideoChatModelFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B967D239F803700CEEB58 /* QJVideoChatModelFrame.m */; };
+		F22B9681239F803700CEEB58 /* QJVideoChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B967E239F803700CEEB58 /* QJVideoChatModel.m */; };
+		F22B9684239F9E4100CEEB58 /* QJInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B9683239F9E4100CEEB58 /* QJInputView.m */; };
+		F22B9687239FB44600CEEB58 /* QJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F22B9686239FB44600CEEB58 /* QJButton.m */; };
+		F23979A9239BFCA000620524 /* QJUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = F23979A5239BFC9F00620524 /* QJUserDefaults.m */; };
+		F2456745239CAF730092D5F5 /* QJGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2456744239CAF730092D5F5 /* QJGroupModel.m */; };
+		F2456748239CB0270092D5F5 /* QJBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2456747239CB0270092D5F5 /* QJBaseModel.m */; };
+		F245674B239CC5240092D5F5 /* QJArrowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F245674A239CC5240092D5F5 /* QJArrowModel.m */; };
+		F245674E239CC5360092D5F5 /* QJSwitchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F245674D239CC5360092D5F5 /* QJSwitchModel.m */; };
+		F2456751239CC78F0092D5F5 /* QJBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2456750239CC78F0092D5F5 /* QJBaseTableViewCell.m */; };
+		F2456754239CF1EB0092D5F5 /* QJSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2456753239CF1EB0092D5F5 /* QJSettingsViewController.m */; };
+		F2456758239D385E0092D5F5 /* QJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2456757239D385E0092D5F5 /* QJBaseViewController.m */; };
+		F245675B239D3AFE0092D5F5 /* UIBarButtonItem+QJBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F245675A239D3AFE0092D5F5 /* UIBarButtonItem+QJBarButtonItem.m */; };
+		F245675E239D3F060092D5F5 /* UIImage+QJImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F245675D239D3F060092D5F5 /* UIImage+QJImage.m */; };
+		F2456763239D49360092D5F5 /* QJContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2456762239D49360092D5F5 /* QJContactManager.m */; };
+		F285B52D239AA5180050C60E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F285B52C239AA5180050C60E /* AppDelegate.m */; };
+		F285B539239AA5180050C60E /* QJSocketDome___SDK_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F285B537239AA5180050C60E /* QJSocketDome___SDK_.xcdatamodeld */; };
+		F285B53B239AA5190050C60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F285B53A239AA5190050C60E /* Assets.xcassets */; };
+		F285B53E239AA5190050C60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F285B53C239AA5190050C60E /* LaunchScreen.storyboard */; };
+		F285B541239AA5190050C60E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F285B540239AA5190050C60E /* main.m */; };
+		F285B54B239AA51A0050C60E /* QJSocketDome___SDK_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F285B54A239AA51A0050C60E /* QJSocketDome___SDK_Tests.m */; };
+		F285B556239AA51A0050C60E /* QJSocketDome___SDK_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F285B555239AA51A0050C60E /* QJSocketDome___SDK_UITests.m */; };
+		F2B7172723A36BB50084C76F /* QJContactDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B7172623A36BB50084C76F /* QJContactDetailsViewController.m */; };
+		F2B7172A23A36BF80084C76F /* QJContactSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B7172923A36BF80084C76F /* QJContactSettingViewController.m */; };
+		F2D84476239CAD8400004A5F /* QJBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D84475239CAD8400004A5F /* QJBaseTableViewController.m */; };
+		F2E2AFF523A7C51D006ACA07 /* QJHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E2AFF323A7C51D006ACA07 /* QJHomeTableViewCell.m */; };
+		F2F681AE239BAA3300FB1955 /* QJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F681AC239BAA3300FB1955 /* QJLoginViewController.m */; };
+		F2F681B3239BABB400FB1955 /* QJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F681B2239BABB300FB1955 /* QJHomeViewController.m */; };
+		F2F681B7239BABE700FB1955 /* QJContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F681B6239BABE700FB1955 /* QJContactViewController.m */; };
+		F2F681BA239BABFF00FB1955 /* QJDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F681B9239BABFF00FB1955 /* QJDiscoverViewController.m */; };
+		F2F681BD239BAC0B00FB1955 /* QJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F681BC239BAC0B00FB1955 /* QJMeViewController.m */; };
+		F2F681C1239BAEAB00FB1955 /* QJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F681C0239BAEAB00FB1955 /* QJTabBarViewController.m */; };
+		F2F681C4239BB10D00FB1955 /* QJNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F681C3239BB10D00FB1955 /* QJNavigationViewController.m */; };
+		F2F681CA239BE11A00FB1955 /* QJUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F681C9239BE11A00FB1955 /* QJUserManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F285B547239AA51A0050C60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F285B520239AA5180050C60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F285B527239AA5180050C60E;
+			remoteInfo = "QJSocketDome(环信SDK)";
+		};
+		F285B552239AA51A0050C60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F285B520239AA5180050C60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F285B527239AA5180050C60E;
+			remoteInfo = "QJSocketDome(环信SDK)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B3308AA8902541FD8AD6148 /* Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests.debug.xcconfig"; path = "Target Support Files/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		624C39568B41D8CEF5113DA5 /* Pods-QJSocketDome(环信SDK)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSocketDome(环信SDK)Tests.debug.xcconfig"; path = "Target Support Files/Pods-QJSocketDome(环信SDK)Tests/Pods-QJSocketDome(环信SDK)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AB29B9632BC05EE7AB81D6C /* Pods_QJSocketDome___SDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QJSocketDome___SDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F41D51BE240D0A998130C0 /* Pods-QJSocketDome(环信SDK)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSocketDome(环信SDK)Tests.release.xcconfig"; path = "Target Support Files/Pods-QJSocketDome(环信SDK)Tests/Pods-QJSocketDome(环信SDK)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BEC50B80A5AC877F0A85E635 /* Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests.release.xcconfig"; path = "Target Support Files/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3608E8DCF745A05BC39FD9E /* Pods-QJSocketDome(环信SDK).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSocketDome(环信SDK).debug.xcconfig"; path = "Target Support Files/Pods-QJSocketDome(环信SDK)/Pods-QJSocketDome(环信SDK).debug.xcconfig"; sourceTree = "<group>"; };
+		D01D71D2D3256732767A223F /* Pods-QJSocketDome(环信SDK).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QJSocketDome(环信SDK).release.xcconfig"; path = "Target Support Files/Pods-QJSocketDome(环信SDK)/Pods-QJSocketDome(环信SDK).release.xcconfig"; sourceTree = "<group>"; };
+		D8464C907FB71714B768A8C7 /* Pods_QJSocketDome___SDK_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QJSocketDome___SDK_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE125BBDACA014475C5AE59C /* Pods_QJSocketDome___SDK__QJSocketDome___SDK_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QJSocketDome___SDK__QJSocketDome___SDK_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2019F01239E03200035003D /* QJWeakRefMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJWeakRefMutableArray.h; sourceTree = "<group>"; };
+		F2019F02239E03200035003D /* QJWeakRefMutableArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJWeakRefMutableArray.m; sourceTree = "<group>"; };
+		F2019F04239E37860035003D /* QJContactModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJContactModel.h; sourceTree = "<group>"; };
+		F2019F05239E37860035003D /* QJContactModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJContactModel.m; sourceTree = "<group>"; };
+		F2019F07239E4CFD0035003D /* QJUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJUserModel.h; sourceTree = "<group>"; };
+		F2019F08239E4CFD0035003D /* QJUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJUserModel.m; sourceTree = "<group>"; };
+		F2019F0A239E90F00035003D /* QJMeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJMeHeaderView.h; sourceTree = "<group>"; };
+		F2019F0B239E90F00035003D /* QJMeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJMeHeaderView.m; sourceTree = "<group>"; };
+		F209521323A2342B001C873B /* QJAppNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJAppNotificationManager.h; sourceTree = "<group>"; };
+		F209521423A2342B001C873B /* QJAppNotificationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJAppNotificationManager.m; sourceTree = "<group>"; };
+		F209521623A28A7B001C873B /* QJNewFriendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJNewFriendViewController.h; sourceTree = "<group>"; };
+		F209521723A28A7B001C873B /* QJNewFriendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJNewFriendViewController.m; sourceTree = "<group>"; };
+		F21298AA23A4B6A90089A5B5 /* NSDate+QJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+QJExtension.h"; sourceTree = "<group>"; };
+		F21298AB23A4B6A90089A5B5 /* NSDate+QJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+QJExtension.m"; sourceTree = "<group>"; };
+		F21298AD23A4CF540089A5B5 /* QJConversationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJConversationManager.h; sourceTree = "<group>"; };
+		F21298AE23A4CF540089A5B5 /* QJConversationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJConversationManager.m; sourceTree = "<group>"; };
+		F22B9653239F59B000CEEB58 /* NSString+QJExtent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+QJExtent.h"; sourceTree = "<group>"; };
+		F22B9654239F59B000CEEB58 /* NSString+QJExtent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+QJExtent.m"; sourceTree = "<group>"; };
+		F22B965A239F5B7C00CEEB58 /* QJChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJChatModel.h; sourceTree = "<group>"; };
+		F22B965B239F5B7C00CEEB58 /* QJChatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJChatModel.m; sourceTree = "<group>"; };
+		F22B965D239F5C1600CEEB58 /* QJChatModelFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJChatModelFrame.h; sourceTree = "<group>"; };
+		F22B965E239F5C1600CEEB58 /* QJChatModelFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJChatModelFrame.m; sourceTree = "<group>"; };
+		F22B9660239F5D2300CEEB58 /* QJChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJChatCell.h; sourceTree = "<group>"; };
+		F22B9661239F5D2300CEEB58 /* QJChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJChatCell.m; sourceTree = "<group>"; };
+		F22B9663239F5EB600CEEB58 /* QJChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJChatViewController.h; sourceTree = "<group>"; };
+		F22B9664239F5EB600CEEB58 /* QJChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJChatViewController.m; sourceTree = "<group>"; };
+		F22B9669239F7E7F00CEEB58 /* QJTextChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJTextChatModel.h; sourceTree = "<group>"; };
+		F22B966A239F7E7F00CEEB58 /* QJTextChatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJTextChatModel.m; sourceTree = "<group>"; };
+		F22B966C239F7F1700CEEB58 /* QJImageChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJImageChatModel.h; sourceTree = "<group>"; };
+		F22B966D239F7F1700CEEB58 /* QJImageChatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJImageChatModel.m; sourceTree = "<group>"; };
+		F22B966F239F7F2500CEEB58 /* QJVoceChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJVoceChatModel.h; sourceTree = "<group>"; };
+		F22B9670239F7F2500CEEB58 /* QJVoceChatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJVoceChatModel.m; sourceTree = "<group>"; };
+		F22B9672239F7F9500CEEB58 /* QJTextChatModelFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJTextChatModelFrame.h; sourceTree = "<group>"; };
+		F22B9673239F7F9500CEEB58 /* QJTextChatModelFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJTextChatModelFrame.m; sourceTree = "<group>"; };
+		F22B9675239F7FA600CEEB58 /* QJImageChatModelFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJImageChatModelFrame.h; sourceTree = "<group>"; };
+		F22B9676239F7FA600CEEB58 /* QJImageChatModelFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJImageChatModelFrame.m; sourceTree = "<group>"; };
+		F22B9678239F7FC800CEEB58 /* QJVoceChatModelFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJVoceChatModelFrame.h; sourceTree = "<group>"; };
+		F22B9679239F7FC800CEEB58 /* QJVoceChatModelFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJVoceChatModelFrame.m; sourceTree = "<group>"; };
+		F22B967C239F803700CEEB58 /* QJVideoChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJVideoChatModel.h; sourceTree = "<group>"; };
+		F22B967D239F803700CEEB58 /* QJVideoChatModelFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJVideoChatModelFrame.m; sourceTree = "<group>"; };
+		F22B967E239F803700CEEB58 /* QJVideoChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJVideoChatModel.m; sourceTree = "<group>"; };
+		F22B967F239F803700CEEB58 /* QJVideoChatModelFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJVideoChatModelFrame.h; sourceTree = "<group>"; };
+		F22B9682239F9E4100CEEB58 /* QJInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJInputView.h; sourceTree = "<group>"; };
+		F22B9683239F9E4100CEEB58 /* QJInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJInputView.m; sourceTree = "<group>"; };
+		F22B9685239FB44600CEEB58 /* QJButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJButton.h; sourceTree = "<group>"; };
+		F22B9686239FB44600CEEB58 /* QJButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJButton.m; sourceTree = "<group>"; };
+		F23979A5239BFC9F00620524 /* QJUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJUserDefaults.m; sourceTree = "<group>"; };
+		F23979A6239BFCA000620524 /* QJUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJUserDefaults.h; sourceTree = "<group>"; };
+		F23979A7239BFCA000620524 /* QJPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJPrefixHeader.pch; sourceTree = "<group>"; };
+		F2456743239CAF730092D5F5 /* QJGroupModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJGroupModel.h; sourceTree = "<group>"; };
+		F2456744239CAF730092D5F5 /* QJGroupModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJGroupModel.m; sourceTree = "<group>"; };
+		F2456746239CB0270092D5F5 /* QJBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJBaseModel.h; sourceTree = "<group>"; };
+		F2456747239CB0270092D5F5 /* QJBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJBaseModel.m; sourceTree = "<group>"; };
+		F2456749239CC5240092D5F5 /* QJArrowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJArrowModel.h; sourceTree = "<group>"; };
+		F245674A239CC5240092D5F5 /* QJArrowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJArrowModel.m; sourceTree = "<group>"; };
+		F245674C239CC5360092D5F5 /* QJSwitchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJSwitchModel.h; sourceTree = "<group>"; };
+		F245674D239CC5360092D5F5 /* QJSwitchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJSwitchModel.m; sourceTree = "<group>"; };
+		F245674F239CC78F0092D5F5 /* QJBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJBaseTableViewCell.h; sourceTree = "<group>"; };
+		F2456750239CC78F0092D5F5 /* QJBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJBaseTableViewCell.m; sourceTree = "<group>"; };
+		F2456752239CF1EB0092D5F5 /* QJSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJSettingsViewController.h; sourceTree = "<group>"; };
+		F2456753239CF1EB0092D5F5 /* QJSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJSettingsViewController.m; sourceTree = "<group>"; };
+		F2456756239D385E0092D5F5 /* QJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJBaseViewController.h; sourceTree = "<group>"; };
+		F2456757239D385E0092D5F5 /* QJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJBaseViewController.m; sourceTree = "<group>"; };
+		F2456759239D3AFE0092D5F5 /* UIBarButtonItem+QJBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+QJBarButtonItem.h"; sourceTree = "<group>"; };
+		F245675A239D3AFE0092D5F5 /* UIBarButtonItem+QJBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+QJBarButtonItem.m"; sourceTree = "<group>"; };
+		F245675C239D3F060092D5F5 /* UIImage+QJImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+QJImage.h"; sourceTree = "<group>"; };
+		F245675D239D3F060092D5F5 /* UIImage+QJImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QJImage.m"; sourceTree = "<group>"; };
+		F245675F239D42F60092D5F5 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		F2456761239D49360092D5F5 /* QJContactManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJContactManager.h; sourceTree = "<group>"; };
+		F2456762239D49360092D5F5 /* QJContactManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJContactManager.m; sourceTree = "<group>"; };
+		F285B528239AA5180050C60E /* QJSocketDome(环信SDK).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QJSocketDome(环信SDK).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F285B52B239AA5180050C60E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F285B52C239AA5180050C60E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F285B538239AA5180050C60E /* QJSocketDome___SDK_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QJSocketDome___SDK_.xcdatamodel; sourceTree = "<group>"; };
+		F285B53A239AA5190050C60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F285B53D239AA5190050C60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F285B53F239AA5190050C60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F285B540239AA5190050C60E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F285B546239AA51A0050C60E /* QJSocketDome(环信SDK)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QJSocketDome(环信SDK)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F285B54A239AA51A0050C60E /* QJSocketDome___SDK_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJSocketDome___SDK_Tests.m; sourceTree = "<group>"; };
+		F285B54C239AA51A0050C60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F285B551239AA51A0050C60E /* QJSocketDome(环信SDK)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QJSocketDome(环信SDK)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F285B555239AA51A0050C60E /* QJSocketDome___SDK_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJSocketDome___SDK_UITests.m; sourceTree = "<group>"; };
+		F285B557239AA51A0050C60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B7172523A36BB50084C76F /* QJContactDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJContactDetailsViewController.h; sourceTree = "<group>"; };
+		F2B7172623A36BB50084C76F /* QJContactDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJContactDetailsViewController.m; sourceTree = "<group>"; };
+		F2B7172823A36BF80084C76F /* QJContactSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJContactSettingViewController.h; sourceTree = "<group>"; };
+		F2B7172923A36BF80084C76F /* QJContactSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJContactSettingViewController.m; sourceTree = "<group>"; };
+		F2D84474239CAD8400004A5F /* QJBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJBaseTableViewController.h; sourceTree = "<group>"; };
+		F2D84475239CAD8400004A5F /* QJBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJBaseTableViewController.m; sourceTree = "<group>"; };
+		F2E2AFF223A7C51D006ACA07 /* QJHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJHomeTableViewCell.h; sourceTree = "<group>"; };
+		F2E2AFF323A7C51D006ACA07 /* QJHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJHomeTableViewCell.m; sourceTree = "<group>"; };
+		F2F681AC239BAA3300FB1955 /* QJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJLoginViewController.m; sourceTree = "<group>"; };
+		F2F681AD239BAA3300FB1955 /* QJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJLoginViewController.h; sourceTree = "<group>"; };
+		F2F681B2239BABB300FB1955 /* QJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJHomeViewController.m; sourceTree = "<group>"; };
+		F2F681B4239BABC600FB1955 /* QJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJHomeViewController.h; sourceTree = "<group>"; };
+		F2F681B5239BABE700FB1955 /* QJContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJContactViewController.h; sourceTree = "<group>"; };
+		F2F681B6239BABE700FB1955 /* QJContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJContactViewController.m; sourceTree = "<group>"; };
+		F2F681B8239BABFF00FB1955 /* QJDiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJDiscoverViewController.h; sourceTree = "<group>"; };
+		F2F681B9239BABFF00FB1955 /* QJDiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJDiscoverViewController.m; sourceTree = "<group>"; };
+		F2F681BB239BAC0B00FB1955 /* QJMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJMeViewController.h; sourceTree = "<group>"; };
+		F2F681BC239BAC0B00FB1955 /* QJMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJMeViewController.m; sourceTree = "<group>"; };
+		F2F681BF239BAEAB00FB1955 /* QJTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJTabBarViewController.h; sourceTree = "<group>"; };
+		F2F681C0239BAEAB00FB1955 /* QJTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJTabBarViewController.m; sourceTree = "<group>"; };
+		F2F681C2239BB10D00FB1955 /* QJNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJNavigationViewController.h; sourceTree = "<group>"; };
+		F2F681C3239BB10D00FB1955 /* QJNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJNavigationViewController.m; sourceTree = "<group>"; };
+		F2F681C8239BE11A00FB1955 /* QJUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QJUserManager.h; sourceTree = "<group>"; };
+		F2F681C9239BE11A00FB1955 /* QJUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJUserManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F285B525239AA5180050C60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8CDC461D5EEE9A703EF75B /* Pods_QJSocketDome___SDK_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F285B543239AA51A0050C60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1E4897B98780BADFB8FB2C /* Pods_QJSocketDome___SDK_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F285B54E239AA51A0050C60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3455816E871FDB0AB6CE707 /* Pods_QJSocketDome___SDK__QJSocketDome___SDK_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D0EC749D88F2C941660CE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3608E8DCF745A05BC39FD9E /* Pods-QJSocketDome(环信SDK).debug.xcconfig */,
+				D01D71D2D3256732767A223F /* Pods-QJSocketDome(环信SDK).release.xcconfig */,
+				0B3308AA8902541FD8AD6148 /* Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests.debug.xcconfig */,
+				BEC50B80A5AC877F0A85E635 /* Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests.release.xcconfig */,
+				624C39568B41D8CEF5113DA5 /* Pods-QJSocketDome(环信SDK)Tests.debug.xcconfig */,
+				80F41D51BE240D0A998130C0 /* Pods-QJSocketDome(环信SDK)Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		18297E9E358D205858E05308 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F245675F239D42F60092D5F5 /* Messages.framework */,
+				D8464C907FB71714B768A8C7 /* Pods_QJSocketDome___SDK_.framework */,
+				EE125BBDACA014475C5AE59C /* Pods_QJSocketDome___SDK__QJSocketDome___SDK_UITests.framework */,
+				6AB29B9632BC05EE7AB81D6C /* Pods_QJSocketDome___SDK_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F209521223A23419001C873B /* QJAppNotificationManager */ = {
+			isa = PBXGroup;
+			children = (
+				F209521323A2342B001C873B /* QJAppNotificationManager.h */,
+				F209521423A2342B001C873B /* QJAppNotificationManager.m */,
+			);
+			path = QJAppNotificationManager;
+			sourceTree = "<group>";
+		};
+		F22B9656239F5B4F00CEEB58 /* QJChat */ = {
+			isa = PBXGroup;
+			children = (
+				F21298AD23A4CF540089A5B5 /* QJConversationManager.h */,
+				F21298AE23A4CF540089A5B5 /* QJConversationManager.m */,
+				F22B9657239F5B4F00CEEB58 /* Model */,
+				F22B9658239F5B4F00CEEB58 /* View */,
+				F22B9659239F5B4F00CEEB58 /* ViewController */,
+			);
+			name = QJChat;
+			path = ViewController/QJChat;
+			sourceTree = "<group>";
+		};
+		F22B9657239F5B4F00CEEB58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F22B965A239F5B7C00CEEB58 /* QJChatModel.h */,
+				F22B965B239F5B7C00CEEB58 /* QJChatModel.m */,
+				F22B965D239F5C1600CEEB58 /* QJChatModelFrame.h */,
+				F22B965E239F5C1600CEEB58 /* QJChatModelFrame.m */,
+				F22B9668239F7E4B00CEEB58 /* QJTextChatModel */,
+				F22B9666239F7E4A00CEEB58 /* QJImageChatModel */,
+				F22B967B239F803700CEEB58 /* QJVideoChatModel */,
+				F22B9667239F7E4A00CEEB58 /* QJVoceChatModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F22B9658239F5B4F00CEEB58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F22B9660239F5D2300CEEB58 /* QJChatCell.h */,
+				F22B9661239F5D2300CEEB58 /* QJChatCell.m */,
+				F22B9682239F9E4100CEEB58 /* QJInputView.h */,
+				F22B9683239F9E4100CEEB58 /* QJInputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F22B9659239F5B4F00CEEB58 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F22B9663239F5EB600CEEB58 /* QJChatViewController.h */,
+				F22B9664239F5EB600CEEB58 /* QJChatViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F22B9666239F7E4A00CEEB58 /* QJImageChatModel */ = {
+			isa = PBXGroup;
+			children = (
+				F22B966C239F7F1700CEEB58 /* QJImageChatModel.h */,
+				F22B966D239F7F1700CEEB58 /* QJImageChatModel.m */,
+				F22B9675239F7FA600CEEB58 /* QJImageChatModelFrame.h */,
+				F22B9676239F7FA600CEEB58 /* QJImageChatModelFrame.m */,
+			);
+			path = QJImageChatModel;
+			sourceTree = "<group>";
+		};
+		F22B9667239F7E4A00CEEB58 /* QJVoceChatModel */ = {
+			isa = PBXGroup;
+			children = (
+				F22B966F239F7F2500CEEB58 /* QJVoceChatModel.h */,
+				F22B9670239F7F2500CEEB58 /* QJVoceChatModel.m */,
+				F22B9678239F7FC800CEEB58 /* QJVoceChatModelFrame.h */,
+				F22B9679239F7FC800CEEB58 /* QJVoceChatModelFrame.m */,
+			);
+			path = QJVoceChatModel;
+			sourceTree = "<group>";
+		};
+		F22B9668239F7E4B00CEEB58 /* QJTextChatModel */ = {
+			isa = PBXGroup;
+			children = (
+				F22B9669239F7E7F00CEEB58 /* QJTextChatModel.h */,
+				F22B966A239F7E7F00CEEB58 /* QJTextChatModel.m */,
+				F22B9672239F7F9500CEEB58 /* QJTextChatModelFrame.h */,
+				F22B9673239F7F9500CEEB58 /* QJTextChatModelFrame.m */,
+			);
+			path = QJTextChatModel;
+			sourceTree = "<group>";
+		};
+		F22B967B239F803700CEEB58 /* QJVideoChatModel */ = {
+			isa = PBXGroup;
+			children = (
+				F22B967C239F803700CEEB58 /* QJVideoChatModel.h */,
+				F22B967E239F803700CEEB58 /* QJVideoChatModel.m */,
+				F22B967F239F803700CEEB58 /* QJVideoChatModelFrame.h */,
+				F22B967D239F803700CEEB58 /* QJVideoChatModelFrame.m */,
+			);
+			path = QJVideoChatModel;
+			sourceTree = "<group>";
+		};
+		F23979A3239BFC9F00620524 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F23979A7239BFCA000620524 /* QJPrefixHeader.pch */,
+				F209521223A23419001C873B /* QJAppNotificationManager */,
+				F2456755239D38230092D5F5 /* Category */,
+				F23979A4239BFC9F00620524 /* Tools */,
+				F23979A8239BFCA000620524 /* QJBaseTableViewController */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F23979A4239BFC9F00620524 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F23979A5239BFC9F00620524 /* QJUserDefaults.m */,
+				F23979A6239BFCA000620524 /* QJUserDefaults.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F23979A8239BFCA000620524 /* QJBaseTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2D84474239CAD8400004A5F /* QJBaseTableViewController.h */,
+				F2D84475239CAD8400004A5F /* QJBaseTableViewController.m */,
+				F245674F239CC78F0092D5F5 /* QJBaseTableViewCell.h */,
+				F2456750239CC78F0092D5F5 /* QJBaseTableViewCell.m */,
+				F2456743239CAF730092D5F5 /* QJGroupModel.h */,
+				F2456744239CAF730092D5F5 /* QJGroupModel.m */,
+				F2456746239CB0270092D5F5 /* QJBaseModel.h */,
+				F2456747239CB0270092D5F5 /* QJBaseModel.m */,
+				F2456749239CC5240092D5F5 /* QJArrowModel.h */,
+				F245674A239CC5240092D5F5 /* QJArrowModel.m */,
+				F245674C239CC5360092D5F5 /* QJSwitchModel.h */,
+				F245674D239CC5360092D5F5 /* QJSwitchModel.m */,
+			);
+			path = QJBaseTableViewController;
+			sourceTree = "<group>";
+		};
+		F2456755239D38230092D5F5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F2456759239D3AFE0092D5F5 /* UIBarButtonItem+QJBarButtonItem.h */,
+				F245675A239D3AFE0092D5F5 /* UIBarButtonItem+QJBarButtonItem.m */,
+				F245675C239D3F060092D5F5 /* UIImage+QJImage.h */,
+				F245675D239D3F060092D5F5 /* UIImage+QJImage.m */,
+				F2019F01239E03200035003D /* QJWeakRefMutableArray.h */,
+				F2019F02239E03200035003D /* QJWeakRefMutableArray.m */,
+				F22B9653239F59B000CEEB58 /* NSString+QJExtent.h */,
+				F22B9654239F59B000CEEB58 /* NSString+QJExtent.m */,
+				F22B9685239FB44600CEEB58 /* QJButton.h */,
+				F22B9686239FB44600CEEB58 /* QJButton.m */,
+				F21298AA23A4B6A90089A5B5 /* NSDate+QJExtension.h */,
+				F21298AB23A4B6A90089A5B5 /* NSDate+QJExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F285B51F239AA5180050C60E = {
+			isa = PBXGroup;
+			children = (
+				F285B52A239AA5180050C60E /* QJSocketDome(环信SDK) */,
+				F285B549239AA51A0050C60E /* QJSocketDome(环信SDK)Tests */,
+				F285B554239AA51A0050C60E /* QJSocketDome(环信SDK)UITests */,
+				F285B529239AA5180050C60E /* Products */,
+				08D0EC749D88F2C941660CE0 /* Pods */,
+				18297E9E358D205858E05308 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F285B529239AA5180050C60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F285B528239AA5180050C60E /* QJSocketDome(环信SDK).app */,
+				F285B546239AA51A0050C60E /* QJSocketDome(环信SDK)Tests.xctest */,
+				F285B551239AA51A0050C60E /* QJSocketDome(环信SDK)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F285B52A239AA5180050C60E /* QJSocketDome(环信SDK) */ = {
+			isa = PBXGroup;
+			children = (
+				F2F68193239BAA3300FB1955 /* Class */,
+				F285B53A239AA5190050C60E /* Assets.xcassets */,
+				F285B53C239AA5190050C60E /* LaunchScreen.storyboard */,
+				F285B53F239AA5190050C60E /* Info.plist */,
+				F285B540239AA5190050C60E /* main.m */,
+				F285B537239AA5180050C60E /* QJSocketDome___SDK_.xcdatamodeld */,
+			);
+			path = "QJSocketDome(环信SDK)";
+			sourceTree = "<group>";
+		};
+		F285B549239AA51A0050C60E /* QJSocketDome(环信SDK)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F285B54A239AA51A0050C60E /* QJSocketDome___SDK_Tests.m */,
+				F285B54C239AA51A0050C60E /* Info.plist */,
+			);
+			path = "QJSocketDome(环信SDK)Tests";
+			sourceTree = "<group>";
+		};
+		F285B554239AA51A0050C60E /* QJSocketDome(环信SDK)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F285B555239AA51A0050C60E /* QJSocketDome___SDK_UITests.m */,
+				F285B557239AA51A0050C60E /* Info.plist */,
+			);
+			path = "QJSocketDome(环信SDK)UITests";
+			sourceTree = "<group>";
+		};
+		F2B7172423A36BB50084C76F /* ContactDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F2B7172523A36BB50084C76F /* QJContactDetailsViewController.h */,
+				F2B7172623A36BB50084C76F /* QJContactDetailsViewController.m */,
+				F2B7172823A36BF80084C76F /* QJContactSettingViewController.h */,
+				F2B7172923A36BF80084C76F /* QJContactSettingViewController.m */,
+			);
+			path = ContactDetails;
+			sourceTree = "<group>";
+		};
+		F2F68193239BAA3300FB1955 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F2F681A7239BAA3300FB1955 /* Main */,
+				F2F6819C239BAA3300FB1955 /* home */,
+				F2F68194239BAA3300FB1955 /* Contact */,
+				F2F68198239BAA3300FB1955 /* Discover */,
+				F2F681A3239BAA3300FB1955 /* Me */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F2F68194239BAA3300FB1955 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				F2F68195239BAA3300FB1955 /* Model */,
+				F2F68196239BAA3300FB1955 /* View */,
+				F2F68197239BAA3300FB1955 /* ViewController */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		F2F68195239BAA3300FB1955 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2456761239D49360092D5F5 /* QJContactManager.h */,
+				F2456762239D49360092D5F5 /* QJContactManager.m */,
+				F2019F04239E37860035003D /* QJContactModel.h */,
+				F2019F05239E37860035003D /* QJContactModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2F68196239BAA3300FB1955 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2F68197239BAA3300FB1955 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2F681B5239BABE700FB1955 /* QJContactViewController.h */,
+				F2F681B6239BABE700FB1955 /* QJContactViewController.m */,
+				F209521623A28A7B001C873B /* QJNewFriendViewController.h */,
+				F209521723A28A7B001C873B /* QJNewFriendViewController.m */,
+				F2B7172423A36BB50084C76F /* ContactDetails */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F2F68198239BAA3300FB1955 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				F2F68199239BAA3300FB1955 /* Model */,
+				F2F6819A239BAA3300FB1955 /* View */,
+				F2F6819B239BAA3300FB1955 /* ViewController */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		F2F68199239BAA3300FB1955 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2F6819A239BAA3300FB1955 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2F6819B239BAA3300FB1955 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2F681B8239BABFF00FB1955 /* QJDiscoverViewController.h */,
+				F2F681B9239BABFF00FB1955 /* QJDiscoverViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F2F6819C239BAA3300FB1955 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				F22B9656239F5B4F00CEEB58 /* QJChat */,
+				F2F6819D239BAA3300FB1955 /* Model */,
+				F2F6819E239BAA3300FB1955 /* View */,
+				F2F6819F239BAA3300FB1955 /* ViewController */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		F2F6819D239BAA3300FB1955 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2F6819E239BAA3300FB1955 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2E2AFF223A7C51D006ACA07 /* QJHomeTableViewCell.h */,
+				F2E2AFF323A7C51D006ACA07 /* QJHomeTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2F6819F239BAA3300FB1955 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2F681B4239BABC600FB1955 /* QJHomeViewController.h */,
+				F2F681B2239BABB300FB1955 /* QJHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F2F681A3239BAA3300FB1955 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F2F681A4239BAA3300FB1955 /* Model */,
+				F2F681A5239BAA3300FB1955 /* View */,
+				F2F681A6239BAA3300FB1955 /* ViewController */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F2F681A4239BAA3300FB1955 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2F681A5239BAA3300FB1955 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2019F0A239E90F00035003D /* QJMeHeaderView.h */,
+				F2019F0B239E90F00035003D /* QJMeHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2F681A6239BAA3300FB1955 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2F681BB239BAC0B00FB1955 /* QJMeViewController.h */,
+				F2F681BC239BAC0B00FB1955 /* QJMeViewController.m */,
+				F2456752239CF1EB0092D5F5 /* QJSettingsViewController.h */,
+				F2456753239CF1EB0092D5F5 /* QJSettingsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F2F681A7239BAA3300FB1955 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F285B52B239AA5180050C60E /* AppDelegate.h */,
+				F285B52C239AA5180050C60E /* AppDelegate.m */,
+				F23979A3239BFC9F00620524 /* Public */,
+				F2F681BE239BAE8400FB1955 /* MainCotroller */,
+				F2F681A8239BAA3300FB1955 /* Login */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F2F681A8239BAA3300FB1955 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F2F681A9239BAA3300FB1955 /* Model */,
+				F2F681AA239BAA3300FB1955 /* View */,
+				F2F681AB239BAA3300FB1955 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F2F681A9239BAA3300FB1955 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2F681C8239BE11A00FB1955 /* QJUserManager.h */,
+				F2F681C9239BE11A00FB1955 /* QJUserManager.m */,
+				F2019F07239E4CFD0035003D /* QJUserModel.h */,
+				F2019F08239E4CFD0035003D /* QJUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2F681AA239BAA3300FB1955 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2F681AB239BAA3300FB1955 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2F681AD239BAA3300FB1955 /* QJLoginViewController.h */,
+				F2F681AC239BAA3300FB1955 /* QJLoginViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F2F681BE239BAE8400FB1955 /* MainCotroller */ = {
+			isa = PBXGroup;
+			children = (
+				F2F681BF239BAEAB00FB1955 /* QJTabBarViewController.h */,
+				F2F681C0239BAEAB00FB1955 /* QJTabBarViewController.m */,
+				F2F681C2239BB10D00FB1955 /* QJNavigationViewController.h */,
+				F2F681C3239BB10D00FB1955 /* QJNavigationViewController.m */,
+				F2456756239D385E0092D5F5 /* QJBaseViewController.h */,
+				F2456757239D385E0092D5F5 /* QJBaseViewController.m */,
+			);
+			path = MainCotroller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F285B527239AA5180050C60E /* QJSocketDome(环信SDK) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F285B55A239AA51A0050C60E /* Build configuration list for PBXNativeTarget "QJSocketDome(环信SDK)" */;
+			buildPhases = (
+				6DFEE55D71306612E559EE47 /* [CP] Check Pods Manifest.lock */,
+				F285B524239AA5180050C60E /* Sources */,
+				F285B525239AA5180050C60E /* Frameworks */,
+				F285B526239AA5180050C60E /* Resources */,
+				ACB26915FEEB83DAEDC8545D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QJSocketDome(环信SDK)";
+			productName = "QJSocketDome(环信SDK)";
+			productReference = F285B528239AA5180050C60E /* QJSocketDome(环信SDK).app */;
+			productType = "com.apple.product-type.application";
+		};
+		F285B545239AA51A0050C60E /* QJSocketDome(环信SDK)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F285B55D239AA51A0050C60E /* Build configuration list for PBXNativeTarget "QJSocketDome(环信SDK)Tests" */;
+			buildPhases = (
+				88FC2A01422309F61258FDC9 /* [CP] Check Pods Manifest.lock */,
+				F285B542239AA51A0050C60E /* Sources */,
+				F285B543239AA51A0050C60E /* Frameworks */,
+				F285B544239AA51A0050C60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F285B548239AA51A0050C60E /* PBXTargetDependency */,
+			);
+			name = "QJSocketDome(环信SDK)Tests";
+			productName = "QJSocketDome(环信SDK)Tests";
+			productReference = F285B546239AA51A0050C60E /* QJSocketDome(环信SDK)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F285B550239AA51A0050C60E /* QJSocketDome(环信SDK)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F285B560239AA51A0050C60E /* Build configuration list for PBXNativeTarget "QJSocketDome(环信SDK)UITests" */;
+			buildPhases = (
+				A1727AE8A934815A175D3F69 /* [CP] Check Pods Manifest.lock */,
+				F285B54D239AA51A0050C60E /* Sources */,
+				F285B54E239AA51A0050C60E /* Frameworks */,
+				F285B54F239AA51A0050C60E /* Resources */,
+				3710749E1D892B8032AF8DC3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F285B553239AA51A0050C60E /* PBXTargetDependency */,
+			);
+			name = "QJSocketDome(环信SDK)UITests";
+			productName = "QJSocketDome(环信SDK)UITests";
+			productReference = F285B551239AA51A0050C60E /* QJSocketDome(环信SDK)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F285B520239AA5180050C60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QJ;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = yiniu;
+				TargetAttributes = {
+					F285B527239AA5180050C60E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					F285B545239AA51A0050C60E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F285B527239AA5180050C60E;
+					};
+					F285B550239AA51A0050C60E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F285B527239AA5180050C60E;
+					};
+				};
+			};
+			buildConfigurationList = F285B523239AA5180050C60E /* Build configuration list for PBXProject "QJSocketDome(环信SDK)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F285B51F239AA5180050C60E;
+			productRefGroup = F285B529239AA5180050C60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F285B527239AA5180050C60E /* QJSocketDome(环信SDK) */,
+				F285B545239AA51A0050C60E /* QJSocketDome(环信SDK)Tests */,
+				F285B550239AA51A0050C60E /* QJSocketDome(环信SDK)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F285B526239AA5180050C60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F285B53E239AA5190050C60E /* LaunchScreen.storyboard in Resources */,
+				F285B53B239AA5190050C60E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F285B544239AA51A0050C60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F285B54F239AA51A0050C60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3710749E1D892B8032AF8DC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFEE55D71306612E559EE47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QJSocketDome(环信SDK)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88FC2A01422309F61258FDC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QJSocketDome(环信SDK)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1727AE8A934815A175D3F69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB26915FEEB83DAEDC8545D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QJSocketDome(环信SDK)/Pods-QJSocketDome(环信SDK)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QJSocketDome(环信SDK)/Pods-QJSocketDome(环信SDK)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QJSocketDome(环信SDK)/Pods-QJSocketDome(环信SDK)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F285B524239AA5180050C60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22B9680239F803700CEEB58 /* QJVideoChatModelFrame.m in Sources */,
+				F245674B239CC5240092D5F5 /* QJArrowModel.m in Sources */,
+				F22B9671239F7F2500CEEB58 /* QJVoceChatModel.m in Sources */,
+				F21298AF23A4CF540089A5B5 /* QJConversationManager.m in Sources */,
+				F2F681AE239BAA3300FB1955 /* QJLoginViewController.m in Sources */,
+				F22B9662239F5D2300CEEB58 /* QJChatCell.m in Sources */,
+				F2456758239D385E0092D5F5 /* QJBaseViewController.m in Sources */,
+				F285B541239AA5190050C60E /* main.m in Sources */,
+				F2E2AFF523A7C51D006ACA07 /* QJHomeTableViewCell.m in Sources */,
+				F2F681C1239BAEAB00FB1955 /* QJTabBarViewController.m in Sources */,
+				F2456748239CB0270092D5F5 /* QJBaseModel.m in Sources */,
+				F22B9681239F803700CEEB58 /* QJVideoChatModel.m in Sources */,
+				F22B966B239F7E7F00CEEB58 /* QJTextChatModel.m in Sources */,
+				F2F681BA239BABFF00FB1955 /* QJDiscoverViewController.m in Sources */,
+				F2456745239CAF730092D5F5 /* QJGroupModel.m in Sources */,
+				F2F681BD239BAC0B00FB1955 /* QJMeViewController.m in Sources */,
+				F22B9665239F5EB600CEEB58 /* QJChatViewController.m in Sources */,
+				F2019F0C239E90F00035003D /* QJMeHeaderView.m in Sources */,
+				F22B9684239F9E4100CEEB58 /* QJInputView.m in Sources */,
+				F245675B239D3AFE0092D5F5 /* UIBarButtonItem+QJBarButtonItem.m in Sources */,
+				F21298AC23A4B6A90089A5B5 /* NSDate+QJExtension.m in Sources */,
+				F2B7172A23A36BF80084C76F /* QJContactSettingViewController.m in Sources */,
+				F2456754239CF1EB0092D5F5 /* QJSettingsViewController.m in Sources */,
+				F23979A9239BFCA000620524 /* QJUserDefaults.m in Sources */,
+				F245675E239D3F060092D5F5 /* UIImage+QJImage.m in Sources */,
+				F209521823A28A7B001C873B /* QJNewFriendViewController.m in Sources */,
+				F285B52D239AA5180050C60E /* AppDelegate.m in Sources */,
+				F22B9655239F59B000CEEB58 /* NSString+QJExtent.m in Sources */,
+				F22B965F239F5C1600CEEB58 /* QJChatModelFrame.m in Sources */,
+				F2456763239D49360092D5F5 /* QJContactManager.m in Sources */,
+				F245674E239CC5360092D5F5 /* QJSwitchModel.m in Sources */,
+				F285B539239AA5180050C60E /* QJSocketDome___SDK_.xcdatamodeld in Sources */,
+				F22B9674239F7F9500CEEB58 /* QJTextChatModelFrame.m in Sources */,
+				F2019F09239E4CFD0035003D /* QJUserModel.m in Sources */,
+				F2019F06239E37860035003D /* QJContactModel.m in Sources */,
+				F22B966E239F7F1700CEEB58 /* QJImageChatModel.m in Sources */,
+				F22B965C239F5B7C00CEEB58 /* QJChatModel.m in Sources */,
+				F22B9677239F7FA600CEEB58 /* QJImageChatModelFrame.m in Sources */,
+				F2D84476239CAD8400004A5F /* QJBaseTableViewController.m in Sources */,
+				F22B967A239F7FC800CEEB58 /* QJVoceChatModelFrame.m in Sources */,
+				F2019F03239E03200035003D /* QJWeakRefMutableArray.m in Sources */,
+				F2F681C4239BB10D00FB1955 /* QJNavigationViewController.m in Sources */,
+				F22B9687239FB44600CEEB58 /* QJButton.m in Sources */,
+				F2F681B7239BABE700FB1955 /* QJContactViewController.m in Sources */,
+				F2456751239CC78F0092D5F5 /* QJBaseTableViewCell.m in Sources */,
+				F2F681CA239BE11A00FB1955 /* QJUserManager.m in Sources */,
+				F2F681B3239BABB400FB1955 /* QJHomeViewController.m in Sources */,
+				F209521523A2342B001C873B /* QJAppNotificationManager.m in Sources */,
+				F2B7172723A36BB50084C76F /* QJContactDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F285B542239AA51A0050C60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F285B54B239AA51A0050C60E /* QJSocketDome___SDK_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F285B54D239AA51A0050C60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F285B556239AA51A0050C60E /* QJSocketDome___SDK_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F285B548239AA51A0050C60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F285B527239AA5180050C60E /* QJSocketDome(环信SDK) */;
+			targetProxy = F285B547239AA51A0050C60E /* PBXContainerItemProxy */;
+		};
+		F285B553239AA51A0050C60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F285B527239AA5180050C60E /* QJSocketDome(环信SDK) */;
+			targetProxy = F285B552239AA51A0050C60E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F285B53C239AA5190050C60E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F285B53D239AA5190050C60E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F285B558239AA51A0050C60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F285B559239AA51A0050C60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F285B55B239AA51A0050C60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3608E8DCF745A05BC39FD9E /* Pods-QJSocketDome(环信SDK).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QJSocketDome(环信SDK)/Class/Main/Public/QJPrefixHeader.pch";
+				INFOPLIST_FILE = "QJSocketDome(环信SDK)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.QJSocketDome---SDK-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F285B55C239AA51A0050C60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01D71D2D3256732767A223F /* Pods-QJSocketDome(环信SDK).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QJSocketDome(环信SDK)/Class/Main/Public/QJPrefixHeader.pch";
+				INFOPLIST_FILE = "QJSocketDome(环信SDK)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.QJSocketDome---SDK-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F285B55E239AA51A0050C60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 624C39568B41D8CEF5113DA5 /* Pods-QJSocketDome(环信SDK)Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				INFOPLIST_FILE = "QJSocketDome(环信SDK)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.QJSocketDome---SDK-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJSocketDome(环信SDK).app/QJSocketDome(环信SDK)";
+			};
+			name = Debug;
+		};
+		F285B55F239AA51A0050C60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F41D51BE240D0A998130C0 /* Pods-QJSocketDome(环信SDK)Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				INFOPLIST_FILE = "QJSocketDome(环信SDK)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.QJSocketDome---SDK-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJSocketDome(环信SDK).app/QJSocketDome(环信SDK)";
+			};
+			name = Release;
+		};
+		F285B561239AA51A0050C60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3308AA8902541FD8AD6148 /* Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				INFOPLIST_FILE = "QJSocketDome(环信SDK)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.QJSocketDome---SDK-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QJSocketDome(环信SDK)";
+			};
+			name = Debug;
+		};
+		F285B562239AA51A0050C60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC50B80A5AC877F0A85E635 /* Pods-QJSocketDome(环信SDK)-QJSocketDome(环信SDK)UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46S98ZE7K8;
+				INFOPLIST_FILE = "QJSocketDome(环信SDK)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yiniu.app.QJSocketDome---SDK-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QJSocketDome(环信SDK)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F285B523239AA5180050C60E /* Build configuration list for PBXProject "QJSocketDome(环信SDK)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F285B558239AA51A0050C60E /* Debug */,
+				F285B559239AA51A0050C60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F285B55A239AA51A0050C60E /* Build configuration list for PBXNativeTarget "QJSocketDome(环信SDK)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F285B55B239AA51A0050C60E /* Debug */,
+				F285B55C239AA51A0050C60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F285B55D239AA51A0050C60E /* Build configuration list for PBXNativeTarget "QJSocketDome(环信SDK)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F285B55E239AA51A0050C60E /* Debug */,
+				F285B55F239AA51A0050C60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F285B560239AA51A0050C60E /* Build configuration list for PBXNativeTarget "QJSocketDome(环信SDK)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F285B561239AA51A0050C60E /* Debug */,
+				F285B562239AA51A0050C60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F285B537239AA5180050C60E /* QJSocketDome___SDK_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F285B538239AA5180050C60E /* QJSocketDome___SDK_.xcdatamodel */,
+			);
+			currentVersion = F285B538239AA5180050C60E /* QJSocketDome___SDK_.xcdatamodel */;
+			path = QJSocketDome___SDK_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F285B520239AA5180050C60E /* Project object */;
+}
